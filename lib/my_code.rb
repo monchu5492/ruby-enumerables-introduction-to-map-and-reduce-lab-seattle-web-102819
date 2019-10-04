@@ -47,12 +47,6 @@ def map_to_negativize(array)
  i = 0
  while i < array.size do
    sum += array[i]
-   i += 1
-  end
-  sum
- end
- 
- 
 def reduce_to_all_true(array)
  i = 0
  while i < array.size do
@@ -69,5 +63,9 @@ def reduce_to_all_true(array)
    return true if array[i] == true
    i += 1
   end
+<<<<<<< HEAD
   return false
+=======
+  return true
+>>>>>>> f178c1ca05f15bb83e2bac755ada6e346bac7949
  end
